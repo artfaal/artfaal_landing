@@ -16,16 +16,26 @@
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    background-color: black;
     /*background-image: url(../img/bg_small.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-color: black;*/
+    */
+
+  /*  background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+
     background: url(../img/bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+    overflow: hidden;
     }
 /*
  * Remove text-shadow in selection highlight:
